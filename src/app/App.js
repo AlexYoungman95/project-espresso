@@ -12,10 +12,12 @@ import '../styles/styling.scss';
 const ProjectRouter = () => (
   <Router>
     <div>
-      <ul>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/settings">Settings</Link></li>
-      </ul>
+      <nav className="navbar">
+        <ul className="navlist">
+          <li className="nav-item"><Link to="/">Home</Link></li>
+          <li className="nav-item"><Link to="/settings">Settings</Link></li>
+        </ul>
+      </nav>
       <hr/>
       <Route exact path="/" component={Home}/>
       <Route path="/settings" component={Settings}/>
