@@ -2,14 +2,6 @@
   display: flex;
   justify-content: space-between;
 
-  &--left {
-    justify-content: flex-start;
-  }
-
-  &--right {
-    justify-content: flex-end;
-  }
-
   .navlist {
     padding: 0;
     list-style: none;

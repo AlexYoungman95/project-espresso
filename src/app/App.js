@@ -13,16 +13,12 @@ const ProjectRouter = () => (
   <Router>
     <div>
       <nav className="navbar">
-        <div className="navbar--left">
-          <ul className="navlist">
-            <li className="nav-item"><Link to="/">Home</Link></li>
-          </ul>
-        </div>
-        <div className="navbar--right">
-          <ul className="navlist">
-            <li className="nav-item"><Link to="/settings">Settings</Link></li>
-          </ul>
-        </div>
+        <ul className="navlist">
+          <li className="nav-item"><Link to="/">Home</Link></li>
+        </ul>
+        <ul className="navlist">
+          <li className="nav-item"><Link to="/settings">Settings</Link></li>
+        </ul>
       </nav>
       <hr/>
       <Route exact path="/" component={Home}/>
