@@ -1,8 +1,13 @@
 @import './globals/globals';
+@import './structure/structure';
 @import './navigation/navigation';
 
 .home {
   text-align: center;
+}
+
+.panel {
+  background-color: white;
 }
 
 .App-logo {
@@ -33,5 +38,6 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: $background-grey;
   font-family: sans-serif;
 }
